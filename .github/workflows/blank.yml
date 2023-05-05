@@ -1,10 +1,11 @@
 name: vikrant
 on:
-  workflow_dispatch:
+  
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+  workflow_dispatch:
 jobs:
   job1:
     runs-on: ubuntu-latest
